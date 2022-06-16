@@ -3,6 +3,8 @@
 <div class="row">
 <p>Nom: {{ name }}</p>
 <p>Prénom: {{ firstname }}</p>
+<input [(ngModel)]="quote">
+{{quote}}
 </div>
 
 <div *ngIf="element === true">

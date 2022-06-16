@@ -11,7 +11,8 @@ export class UserProfileComponent implements OnInit {
   firstname = 'Doe';
   age = '25';
   photo = 'https://randomuser.me/api/portraits/lego/2.jpg';
-  imageSrc = 'https://randomuser.me/api/portraits/lego/2.jpg'
+  imageSrc = 'https://randomuser.me/api/portraits/lego/2.jpg';
+  quote = '';
   element = false;
 
   constructor() { }
